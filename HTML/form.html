@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <style>                   
+		label{
+			color:red;
+			display:inline-block;
+			width:100px;
+			text-align: left;
+		}       
+    </style>
+</head>
+<body>
+    <form action="thanks.html">
+        <h1>Form</h1>       
+        <!-- Name: <input type="text" name="username" maxlength="8" size="12" value="John" readonly/> -->
+        <label for="name">Name:</label>
+        <input type="text" name="text" id="text" placeholder="name">
+        <br>
+        <label for="name">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="desc">Message:</label>
+        <textarea name="Desc" id="Desc" cols="20" rows="5">write your message here</textarea>
+        <br>
+        <label for="skills">skills:</label>
+        <input type="checkbox" name="html" id="skilss" value="html" checked> HTML</input>
+        <input type="checkbox" name="CSS" id="skilss" value="css"> CSS</input>
+        <input type="checkbox" name="JS" id="skilss" value="js"> JS</input>
+        <br>
+        <label for="skills">Gender:</label>
+        <input type="radio" name="radio1" id="skilss" value="male" checked> male</input>
+        <input type="radio" name="radio1" id="skilss" value="female"> female</input>
+        <input type="radio" name="radio1" id="skilss" value="other"> others</input>
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="Canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="mexica">Mexica</option>
+            <option value="germany">Germany</option>
+        </select>
+        <br>
+        <label for="date">DOB</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <input type="submit" name="submit" id="submit">
+    </form>
+</body>
+</html>
