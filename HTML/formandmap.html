@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        button{
+            margin-left: 240px;
+            margin-top: 15px;
+            background-color: rgba(0, 0, 0, 0.708);
+            color: white;
+            padding: 5px 20px;
+        }
+        td{
+            width: 250px;
+            padding: 5px;
+
+        }
+        input{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Departure Date <span style="color: red">*</span></td>
+            <td>Departure Time <span style="color: red">*</span></td>
+        </tr>
+        <tr>
+            <td>               
+                <input type="date" id="departuredate" name="departuredate">                                  
+            </td>   
+            <td>
+                <input type="time" id="departuretime" name="departuretime">   
+            </td>
+        </tr>
+        <tr>
+            <td>Return Date <span style="color: red">*</span></td>
+            <td>Return Time <span style="color: red">*</span></td>
+        </tr>
+        <tr>
+            <td>               
+                <input type="date" id="returndate" name="returndate">                                  
+            </td>   
+            <td>
+                <input type="time" id="returntime" name="returntime">   
+            </td>
+        </tr>
+        <tr>
+            <td>Number of guests/passengers <span style="color: red">*</span></td>
+            <td>Type of room/ticket <span style="color: red">*</span></td>
+        </tr>
+        <tr>
+            <td><select name="number" id="number">
+                <option value="select">Please Select </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select></td>
+        </tr>
+        <tr>            
+            <td><input type="radio" id="economy" name="type" value="economy">Economy</td>
+            <td><input type="radio" id="premium" name="type" value="premium">Premium</td>
+        </tr>
+        <tr>            
+            <td><input type="radio" id="Business" name="type" value="business">Business</td>
+            <td><input type="radio" id="Deluxe" name="type" value="Deluxe">Deluxe</td>
+        </tr>
+    </table>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.465794688254!2d-75.67135388523758!3d45.31921575112829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce083f06d206e1%3A0x50fd37ed2e082d1a!2sOttawa%20Macdonald%E2%80%93Cartier%20Uluslararas%C4%B1%20Havaalan%C4%B1!5e0!3m2!1str!2sca!4v1668183937099!5m2!1str!2sca" width="540" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <button type="button">BOOK</button>
+    </div>
+
+    
+</body>
+</html>
