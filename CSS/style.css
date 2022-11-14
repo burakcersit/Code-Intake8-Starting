@@ -1,0 +1,18 @@
+body{
+    background-color: lightblue;
+}
+
+header{
+    text-align: center;
+    color: darkblue;
+}
+
+#id1, #id2{
+    text-align: center;
+    color: red;
+    font-family: arial;
+    background-color: pink;
+}
+h3{
+    text-align: center;
+}
