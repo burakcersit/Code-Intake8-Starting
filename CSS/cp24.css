@@ -1,0 +1,76 @@
+section{
+      padding-left: 410px;
+
+    }
+
+img{  
+    float: left; 
+   height: 170px;
+   width: 400px;    
+   margin-top: 20px;
+}
+header{
+    margin-bottom: 10px;
+}
+#header{
+  color: red;
+  font-weight: 900;
+  
+  
+}
+
+#header:hover{
+    color: black;
+    font-weight: 900;
+    transition: 0.3s;
+
+    
+}
+
+a{
+    color: black;
+    margin: 10px;
+}
+
+nav a:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 7px;
+    transition: 0.3s;
+    padding: 2px;
+}
+
+#latest{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+button{
+    margin-left: 25px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-color: white;
+}
+
+button:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+#bottomleft{
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
