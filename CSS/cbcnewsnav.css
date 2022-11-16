@@ -1,0 +1,40 @@
+li{
+    display: inline-block;
+    text-decoration: none;    
+}
+
+a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    background-color: red;
+    padding: 7px 7px;
+}
+
+#thenational a{
+    background-color: white;
+    color: red;
+    padding: 0;
+    font-weight: bold;
+}
+
+iframe{
+    float: left;    
+    margin: 15px;
+}
+
+aside{
+    margin-top: 1px;
+}
+
+div:hover{
+    border: 1px solid grey;
+
+}
