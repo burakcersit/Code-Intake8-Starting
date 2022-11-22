@@ -1,0 +1,107 @@
+li{
+    display: inline;
+    margin-bottom: 50px;  
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch; 
+  height: 23px;
+}
+
+
+
+.flex-container > li {
+    margin: 0px;
+    height: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+.logo{
+    position: relative;
+    right: -5%;
+}
+
+a:hover{
+    color: blue;
+}
+
+.search button{
+    background-color: white;
+    margin-left:-50px;
+    text-decoration: none;
+    border: 0;   
+}
+button:hover{
+    cursor: pointer;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.search{
+    background-image: url("https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/08/ZG_ZPA_08_21_Americana_ExtFront_1081_4936px_desktopImg2x-2-scaled.jpg");
+    background-size: 1800px 400px;
+    background-position: 60% bottom;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.search h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.search input{
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    text-align: left;
+
+}
+
+main > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.signin{
+    font-size: 20px;
+    
+}
+
+.button2{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+}
