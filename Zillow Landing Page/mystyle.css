@@ -1,3 +1,4 @@
+
 li{
     display: inline;
     margin-bottom: 50px;  
@@ -105,3 +106,33 @@ button:hover{
     background-color: aliceblue;
     border: 1px solid darkblue;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+    background-color: whitesmoke;
+    padding: 60px;
+    
+}
+
+.container1, .container2, .container3{
+    border: 1px solid white;
+    width: 380px;
+    display: inline-block; 
+    padding: 110px 30px 110px 30px;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;    
+}
+.container1:hover, .container2:hover, .container3:hover{
+    transform: scale(1.05);
+    transition: transform .3s;
+    cursor: pointer;    
+}
+
+
+
