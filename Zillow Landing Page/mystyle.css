@@ -17,12 +17,9 @@ a{
 }
 
 .flex-container {
-  display: flex;
-  align-items: stretch; 
   height: 23px;
   
 }
-
 
 
 .flex-container > li {
@@ -34,6 +31,10 @@ a{
 
 }
 
+/* .search form{   
+  position: sticky;
+  top: 0;
+} */
 
 a:hover{
     color: blue;
@@ -63,6 +64,7 @@ input:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
  
 .search h2{
@@ -247,12 +249,53 @@ a {
    
 }
 .play_store img{
-    height: 80px;
-    width: 220px;
+    height: 52px;
+    width: 120px;
     margin: 10px;
+    
 }
 .app_store img{
-    height: 100px;
-    width: 220px;
-    margin: 10px;
+    height: 58px;
+    width: 120px;
+    margin: 14px;
+}
+/*ICONS*/
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+ .icons .fa {
+  padding: 20px;
+  font-size: 13px;  
+  text-align: center;
+  text-decoration: none;  
+  border-radius: 50%;
+  margin: 14px;
+  position: relative;
+  bottom: 20px;
+  padding: 20px;
+}
+.icons .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.icons .fa:hover {
+  opacity: 0.7;
+}
+
+.icons .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.icons .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.icons .house{
+  position: relative;
+  bottom: 20px;
 }
