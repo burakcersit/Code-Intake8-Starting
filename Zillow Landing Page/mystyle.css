@@ -1,4 +1,4 @@
-
+/*header*/
 header{
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ a{
 a:hover{
     color: blue;
 }
-
+/*first part, search*/
 .search button{
     background-color: white;
     margin-left:-50px;
@@ -57,13 +57,13 @@ input:hover{
 .search{
     background-image: url("https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/08/ZG_ZPA_08_21_Americana_ExtFront_1081_4936px_desktopImg2x-2-scaled.jpg");
     background-size: 1800px 400px;
-    background-position: 60% bottom;
     background-repeat: no-repeat;
     height: 400px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: center;
     
 }
  
@@ -82,7 +82,7 @@ input:hover{
     text-align: left;
 
 }
-
+/*second part. signin*/
 main > div{
     display: flex;
     justify-content: center;
@@ -203,7 +203,6 @@ a {
   }
 
   /*footer (first section)*/
-
   
   .firstfooter{
     display: inline;
@@ -280,7 +279,7 @@ a {
 .icons .fa-facebook {
   background: #3B5998;
   color: white;
-}
+} 
 .icons .fa:hover {
   opacity: 0.7;
 }
