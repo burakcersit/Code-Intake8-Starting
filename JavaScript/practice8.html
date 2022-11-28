@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Ex: input a number if number is divisible by 3 - print milk if number is divisible by 5 - print pop if number is divisble by 3 as well as 5 - print popmilk
+
+        
+        let number = prompt("please enter your number")
+        if(number % 3 === 0 && number % 5 === 0){
+            console.log("popmilk")
+        }else if(number % 5 === 0){
+            console.log("pop")
+        }else if(number % 3 === 0){
+            console.log("milk")
+        }else{
+            console.log("invalid character")
+        }
+    </script>
+</body>
+</html>
