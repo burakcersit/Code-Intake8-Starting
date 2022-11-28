@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // logical operator with if else
+        // || or operator
+        // && and operator
+        // ! not operator
+        
+// January - 31 days
+// February - 28 days in a common year and 29 days in leap years
+// March - 31 days
+// April - 30 days
+// May - 31 days
+// June - 30 days
+// July - 31 days
+// August - 31 days
+// September - 30 days
+// October - 31 days
+// November - 30 days
+// December - 31 days
+
+// Ex: input a number
+// if number is divisible by 3 - print milk
+// if number is divisible by 5 - print pop
+// if number is divisble by 3 as well as 5 - print popmilk
+
+//ex: even and odd number from 1 to 50
+
+
+        let months = prompt("enter month")
+
+        if( months === "january" ||months === "march" || months ==="may" || months ==="july" || months ==="august" || months ==="october" || months ==="december"){
+            alert( months + " " +  "has 31 days")
+        }else if(months === "april" ||months === "june" || months ==="september" || months ==="november" ){
+            alert(months + " " +  "has 30 days")
+        }else if (months === "february"){
+            alert(months + " " + "has 28 days")
+        }else{
+            alert("invalid character")
+        }       
+
+    </script>
+</body>
+</html>
