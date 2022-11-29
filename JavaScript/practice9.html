@@ -10,8 +10,13 @@
     <script>
         // Read 10 numbers using prompt and find their sum and average. Test Data : Input the 10 numbers : Number-1 :2 ... Number-10 :2 Expected Output : The sum of 10 no is : 55 The Average is : 5.500000
 
-
-        
+        let sum = 0
+        for(let i=1; i<=5; i++){
+            let num= parseFloat(prompt("enter a number"));
+            sum+=num; //sum = sum + num
+        }
+        console.log("sum is:", sum);
+        console.log("average is:", sum/5)     
        
         
 
