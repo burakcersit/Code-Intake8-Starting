@@ -18,9 +18,15 @@
 // display("burak", 'cersit')
 
 
-function cube(num){
-    let cube = num * num * num
-    console.log(cube)
-}
+// function cube(num){
+//     let cube = num * num * num
+//     console.log(cube)
+// }
 
-cube(5)
+// cube(5)
+
+
+//Arrow Function
+
+// const mul = (val1, val2) => {return var1*val2}
+
