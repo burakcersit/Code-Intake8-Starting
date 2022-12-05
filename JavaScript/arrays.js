@@ -35,7 +35,7 @@ console.log(colors.length)
 
 
 //ccall back function
-colors.forEach(ele)=> console.log(ele)
+// colors.forEach(ele)=> console.log(ele)
 
 //push is udes to add an element at the end of an array
 colors.push("white")
@@ -63,3 +63,37 @@ splicedArr = colors.splice(3,0,'abc')
 splicedArr = colors.splice(1,2,'abc', 'def')
 
 color.sort
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+for (let i=1; i<50; i++){
+    let number = [i]
+    console.log(number)
+}
+
+
+
+// sample
+// const a = [2, 4, 5, 3, 1, 8]
+// let res = [];
+// for(let i=0; i<a.length; i++){
+//     let number = a[i]*2;
+//     if(number>10){
+//         res.push(number);
+//     }
+// }
+// console.log('resultant array', res)
+
+// sample with map method
+// const a = [2, 4, 5, 3, 1, 8]
+// let res = a.map((item)=>item*2);
+// console.log('resultant array2', res)
+
+// let final = res.filter((item)=> item>10);
+// console.log('resultant array2', final)
+
+// let res = a.map((item)=>item*2);
+            // .filter((item)=>item>10)
+            //  .reduce((a,b)=>a+b)
+// console.log('resultant array2', final)
+
