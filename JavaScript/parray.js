@@ -62,6 +62,12 @@ console.log(weekDays);
      Take everything from the list array and put it into the cart array.
      If something from list is already in cart dont add it
      */
+    //    cartArr = []
+    //     let arr1push = cartArr.push(arr1)
+    //     let arr2push = cartArr.push(arr2)
+
+
+
  
      /*
      .filter()
@@ -69,3 +75,6 @@ console.log(weekDays);
      Using the filter method create a new array that only includes values that are multiples of ten
      */
      let nums = [45,50,55,60,75,80,95,90,100,10,20,15,44]
+     const result = nums.filter(nums => nums % 10 == 0)
+     console.log("multiple of ten is:", result)
+
