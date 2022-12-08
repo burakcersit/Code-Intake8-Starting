@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--
+ex:3 change color of fruits, change heading to fruits grocery list
+list of fruits
+apples
+kiwi
+grapes
+oranges
+strawberry
+add class, change the colors depend on color of fruit
+-->
+    
+    <h1>Fruits grocery list</h1>
+    <ul>
+    <li class="li1" id="red">Apple</li>
+    <li class="li1" id="green">Kiwi</li>
+    <li class="li1" id="orange">Orange</li>
+    <li class="li1" id="black">Grapes</li>
+    <li class="li1" id="yellow">Banana</li>
+    <li class="li1" id="blue">blueberry</li>
+    <li class="li1" id="red">Rusberry</li>
+    <li class="li1" id="black">Blackberry</li>
+    <li class="li1" id="red">Strawberry</li>
+</ul>
+    <button onclick="change()">Change</button>
+    
+    <script>
+function change(){
+const ele=document.getElementsByClassName("li1");
+console.log(ele);
+
+for(let i=0; i<ele.length;i++){    
+ ele[i].style.color=ele[i].id
+} }
+
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--
+ex:2 add 4 button and change color in a list
+--
+Ex2:  change color of colors in a list
+red
+green
+purple
+blue -->
+
+
+<p class="p1">RED</p>
+<p class="p1">GREEN</p>
+<p class="p1">PURPLE</p>
+<p class="p1">BLUE</p>
+
+<button onclick="change()">Change</button>
+<script>
+function change(){
+const ele = document.getElementsByClassName("p1");
+ele[0].style.color= "red";
+ele[1].style.color = "green"
+ele[2].style.color = "purple"
+ele[3].style.color = "blue"
+
+}
+</script>
+
+</body>
+</html>

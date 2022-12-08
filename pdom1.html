@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--
+Ex: 1 heading, 2 paragraphs
+click on a button, heading chnage to something elements
+para1 color chnages to green
+para2 background color to yellow -->
+
+<h1 class="p1">paragraph1</h1>
+<p class="p1">paragraph2</p>
+<p class="p1">paragraph3</p>
+
+
+<button onclick="change()">Change</button>
+<script>
+function change(){
+const ele = document.getElementsByClassName("p1");
+ele[0].innerHTML= "Something Else";
+ele[1].style.color = "green"
+ele[2].style.color = "yellow"
+}
+</script>
+
+    
+</body>
+</html>
