@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Ex2: two buttons -create and remove,,,create list of 5 elements, remove last 2 elements on a click of button
+<ul>
+<li>Math
+<li>english
+    -->
+
+    <button onclick="create()">Create elements</button>
+    <button onclick="remove()">Remove elements</button>
+<script>
+
+        function create(){
+        for(let i=0; i<5; i++ ){
+        const ele = document.createElement("li")
+        ele.innerText = "List";
+        console.log(ele)
+        document.body.appendChild(ele);        
+        }
+        }
+
+        function remove(){
+        const ele2 = document.querySelectorAll("li")
+        for(let i=0; i<2; i++ ){
+        ele2[i].remove()
+        }
+        }
+      
+
+</script>
+    
+
+</body>
+</html>

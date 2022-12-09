@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>HEADING</h1>
+    <p>We have just <b>started</b> this <b>section</b> for the users (<b>beginner</b> to <b>intermediate</b>) who want to work with various <b>JavaScript</b> problems and write scripts online to test their <b>JavaScript</b> skill.
+    </p>
+
+
+
+<script>
+    const heading = document.querySelector("h1")
+    heading.style.textAlign = "center";
+    heading.style.fontSize = "50px"
+    heading.style.color = "red"
+
+    const highlighted = document.querySelectorAll("b")
+    for(let i=0; i<highlighted.length; i++){
+    highlighted[i].style.backgroundColor  = "yellow"
+    }
+
+
+
+</script>
+
+
+
+
+    <!--
+        We have just <b>started</b> this <b>section</b> for the users (<b>beginner</b> to <b>intermediate</b>) who want to work with various <b>JavaScript</b> problems and write scripts online to test their <b>JavaScript</b> skill.
+
+Heading-appear in the centre, font size bigger, text Main Section, Red in color
+
+Paragraph- everything bold should be highlighted font style changed
+
+
+
+
+    -->
+</body>
+</html>
