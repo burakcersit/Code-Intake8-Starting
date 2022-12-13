@@ -9,7 +9,7 @@
 <body>
 
     <h1>HEADING</h1>
-    <p>We have just <b>started</b> this <b>section</b> for the users (<b>beginner</b> to <b>intermediate</b>) who want to work with various <b>JavaScript</b> problems and write scripts online to test their <b>JavaScript</b> skill.
+    <p>We have just <b onmouseover="mouseover()">started</b> this <b onmouseover="mouseover()">section</b> for the users (<b onmouseover="mouseover()">beginner</b> to <b onmouseover="mouseover()">intermediate</b>) who want to work with various <b onmouseover="mouseover()">JavaScript</b> problems and write scripts online to test their <b onmouseover="mouseover()">JavaScript</b> skill.
     </p>
 
 
@@ -20,11 +20,18 @@
     heading.style.fontSize = "50px"
     heading.style.color = "red"
 
-    const highlighted = document.querySelectorAll("b")
-    for(let i=0; i<highlighted.length; i++){
+
+
+    document.querySelectorAll("b").onmouseover = function() {mouseOver()};
+
+    function mouseOver(){
+        const highlighted = document.querySelectorAll("b")
+        for(let i=0; i<highlighted.length; i++){
     highlighted[i].style.backgroundColor  = "yellow"
     }
 
+    }
+   
 
 
 </script>
