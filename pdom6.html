@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Create a table element and add it to the body.
+Create a table row element and add it to the table.
+Remove 2nd row from the table.
+Add a class attribute to the table row.
+Replace 3rd row with a new row.
+
+3 row 
+each row 3 data
+
+    -->
+
+    <script>
+        const table = document.createElement("table")
+        table.setAttribute("border", "2")
+        document.body.appendChild(table);       
+        
+        const row1 = document.createElement("tr")
+        table.appendChild(row1)
+        const data1 = document.createElement("td")
+        data1.innerHTML = "1"
+        row1.appendChild(data1)
+        const data2 = document.createElement("td")    
+        data2.innerHTML = "2"
+        row1.appendChild(data2)    
+        const data3 = document.createElement("td")
+        data3.innerHTML = "3"
+        row1.appendChild(data3)
+
+
+        const row2 = document.createElement("tr")
+        table.appendChild(row2)
+        const data4 = document.createElement("td")
+        data4.innerHTML = "4"
+        row2.appendChild(data4)
+        const data5 = document.createElement("td")
+        data5.innerHTML = "5"   
+        row2.appendChild(data5)     
+        const data6 = document.createElement("td")
+        data6.innerHTML = "6"
+        row2.appendChild(data6)
+
+
+        const row3 = document.createElement("tr")
+        table.appendChild(row3)
+        const data7 = document.createElement("td")
+        data7.innerHTML = "7"
+        row3.appendChild(data7)
+        const data8 = document.createElement("td")    
+        data8.innerHTML = "8"   
+        row3.appendChild(data8) 
+        const data9 = document.createElement("td")
+        data9.innerHTML = "9"
+        row3.appendChild(data9)
+        
+
+        //remove row2
+       // row2.remove();       
+
+       //class 
+        table.setAttribute("class", "table");
+
+
+        //replaced new row
+        newRow = document.createElement('tr')
+        table.appendChild(newRow)
+        const data10 = document.createElement("td")
+        data10.innerHTML = "10"
+        newRow.appendChild(data10)
+        const data11 = document.createElement("td")    
+        data11.innerHTML = "11"   
+        newRow.appendChild(data11) 
+        const data12 = document.createElement("td")
+        data12.innerHTML = "12"
+        newRow.appendChild(data12)        
+        table.replaceChild(newRow, row3);        
+
+    </script>
+</body>
+</html>
