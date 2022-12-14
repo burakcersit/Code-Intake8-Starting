@@ -7,6 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <button id="black">RED</button>
+    <button id="white">magenta</button>
+
+
+    <script>
+ 
+ const button = document.getElementById("black");
+        button.onclick = function(){
+    const h1 = document.createElement("h1")
+    h1.innerText = "background color is red and text is white."
+    h1.style.color = "white"
+    h1.style.backgroundColor = "black"
+    document.body.style.backgroundColor = "red";
+    document.body.appendChild(h1);
+}
+
+const button2 = document.getElementById("white");
+        button2.onclick = function(){
+    const h1 = document.createElement("h1")
+    h1.innerText = "background color is magenta and text is black."
+    h1.style.color = "black"
+    h1.style.backgroundColor = "red"
+    document.body.style.backgroundColor = "magenta";
+    document.body.appendChild(h1);
+}
+    </script>
 </body>
 </html>
