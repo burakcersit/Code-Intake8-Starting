@@ -15,12 +15,12 @@
  
  const button = document.getElementById("black");
         button.onclick = function(){
-    const h1 = document.createElement("h1")
-    h1.innerText = "background color is red and text is white."
-    h1.style.color = "white"
-    h1.style.backgroundColor = "black"
+    const h2 = document.createElement("h2")
+    h2.innerText = "background color is red and text is white."
+    h2.style.color = "white"
+    h2.style.backgroundColor = "black"
     document.body.style.backgroundColor = "red";
-    document.body.appendChild(h1);
+    document.body.appendChild(h2);
 }
 
 const button2 = document.getElementById("white");
@@ -28,8 +28,8 @@ const button2 = document.getElementById("white");
     const h1 = document.createElement("h1")
     h1.innerText = "background color is magenta and text is black."
     h1.style.color = "black"
-    h1.style.backgroundColor = "red"
-    document.body.style.backgroundColor = "magenta";
+    h1.style.backgroundColor = "white"
+    document.body.style.backgroundColor = "black";
     document.body.appendChild(h1);
 }
     </script>
