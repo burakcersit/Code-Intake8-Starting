@@ -11,9 +11,9 @@ app.get('/', (req,res)=>
 res.render('form')
 )
 
-app.post('/save'), (req,res)=>{
+app.post('/save', (req,res)=>{
     res.send("form submitted")
-}
+})
 
 app.listen(port,()=>
 console.log("server running on port 8080")
